@@ -13,7 +13,7 @@
 8. Display the employee table, salary_log table.
 
 ### Program:
-```
+```sql
 CREATE TABLE employed(
   empid NUMBER,
   empname VARCHAR2(10),
@@ -45,7 +45,7 @@ insert into employed values(2,'sanjay','SALES',500000);
 ![image](https://github.com/KANISHKAR2607/Ex-No-5-Creating-Triggers-using-PL-SQL/assets/118886772/afcec037-26b9-4bc4-8847-2c98c307a6e9)
 
 ### PLSQL Trigger code
-```
+```sql
 -- Create the trigger
 CREATE OR REPLACE TRIGGER log_sal_update
 BEFORE UPDATE ON employed
